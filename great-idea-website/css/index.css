@@ -132,14 +132,10 @@ main {
 }
 
 .above-image {
-	display: inline-block;
+	display: inline-flex;
 	width: auto;
 	text-align: left;
 	padding-bottom: 5%;
-}
-
-.above-image h2, p {
-	width: 50%;
 }
 
 .middle-img {
@@ -147,10 +143,23 @@ main {
 	width: 100%;
 }
 
+.below-image {
+	display: inline-flex;
+	width: auto;
+	text-align: left;
+}
+
 footer {
 	padding-top: 5%;
 }
 
-h5 {
+address a {
+	padding: 0;
+	color: black;
+}
+
+footer p {
 	padding-top: 5%;
+	padding-bottom: 5%;
+	text-align: center;
 }
