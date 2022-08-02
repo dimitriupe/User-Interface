@@ -54,40 +54,58 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Nunito', sans-serif;
+    /* font-family: 'Titillium Web', sans-serif; */
 	width: 80%;
 	margin: 0 auto;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+    font-family: 'Nunito', sans-serif;
+	/* font-family: 'Bangers', cursive; */
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
 
 /* Your code starts here! */
 
+/* Main Page */
+
 header {
-	width: 100%;
+	width: 64%;
 	padding: 40px 10px;
 	text-align: left;
+	background-color: gainsboro;
+	top: 0;
+	overflow: hidden;
+	position: fixed;
 }
 
 nav {
 	display: inline-block;
 	width: 70%;
 	vertical-align: 14px;
+	
 }
 
 nav a:first-child {
 	padding-left: 0%;
 }
 
+nav a:last-child {
+	padding-right: 0%;
+}
+
 a {
 	color: gray;
 	text-decoration: none;
-	padding: 0 3%;
-	padding-left: 45px;
+	padding: 0 4%;
+	padding-left: 35px;
+}
+
+a:hover {
+	background: #ddd;
+	color: black;		
 }
 
 img.logo {
@@ -100,6 +118,8 @@ img.logo {
 	width: 100%;
 	border-bottom: 2px solid black;
 	padding-bottom: 5%;
+	padding-top: 5%;
+	margin-top: 15%;
 }
 
 .title {
@@ -138,6 +158,10 @@ main {
 	padding-bottom: 5%;
 }
 
+h2 {
+	font-weight: 900;
+}
+
 .middle-img {
 	padding-bottom: 5%;
 	width: 100%;
@@ -163,3 +187,22 @@ footer p {
 	padding-bottom: 5%;
 	text-align: center;
 }
+
+/* Services Page */
+
+.a-logo {
+	padding: 0;	
+}
+
+span {
+	width: 50%;
+	text-align: center;
+}
+
+main p {
+	padding-right: 1%;
+}
+
+/* CSS animations */
+
+/* @import 'animate.css'; */
