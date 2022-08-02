@@ -203,6 +203,12 @@ main p {
 	padding-right: 1%;
 }
 
-/* CSS animations */
+/* nav.scroll {
+	padding: 10px;
+	background: black;
+}
 
-/* @import 'animate.css'; */
+nav.scroll a {
+	color: white;
+} */
+
