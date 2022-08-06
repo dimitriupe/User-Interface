@@ -127,6 +127,12 @@ img.logo {
 	text-align: center;
 }
 
+.upper-part .title {
+	background-image: url("/great-idea-website/img/title.jpg");
+	background-size: contain;
+	border-radius: 1%;
+}
+
 h1 {
 	font-size: 4em;
 	padding-top: 11%;
